@@ -3,8 +3,8 @@ import json
 from bs4 import BeautifulSoup
 class credential(object):
     def __init__(self,app_id,app_key,source_language,target_language,URL):
-        self.__app_id = 'e47f9dd7'
-        self.__app_key = 'cdf73b1bd1d71fdcc45fdeafbccf6a1e'
+        self.__app_id = 'use your app id'
+        self.__app_key = 'use your app key'
         self.source_language ='en'
         self.target_language = 'es'
         self.URL = "https://en.oxforddictionaries.com/"
